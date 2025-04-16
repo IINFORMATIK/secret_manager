@@ -1,0 +1,146 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+}
+
+/* Стили для формы */
+form {
+    margin-bottom: 20px;
+}
+
+/* Стили для меток */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Стили для полей ввода */
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid #00a136;
+    border-radius: 5px;
+}
+
+/* Стили для кнопок */
+button {
+    padding: 10px 20px;
+    background-color: #00a136;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Стили для кнопок при наведении */
+button:hover {
+    background-color: #007f29;
+}
+
+/* Стили для вывода результата */
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+/* Стили для кнопки выхода */
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Стили для контейнера кнопок */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Стили для заголовка */
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #192634;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+/* Стили для контейнера */
+.container {
+    margin-top: 2rem;
+}
+
+/* Стили для вкладок */
+.nav-tabs .nav-link {
+    color: #198754;
+}
+
+.nav-tabs .nav-link.active {
+    color: #212529;
+    font-weight: bold;
+}
+
+/* Стили для содержимого вкладок */
+.tab-content {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    padding: 1rem;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+/* Стили для кнопок */
+.btn-primary {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-primary:hover {
+    background-color: #157347;
+    border-color: #157347;
+}
+
+/* Стили для модального окна */
+.modal-content {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+/* Стили для элементов формы */
+.form-control {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+/* Стили для таблицы */
+.table {
+    color: #212529;
+}
+
+/* Стили для информационного сообщения */
+.alert-info {
+    background-color: #cff4fc;
+    color: #055160;
+}
